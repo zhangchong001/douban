@@ -1,0 +1,77 @@
+
+    .suggest-overlay {
+  position: absolute; z-index: 10001; width: auto; background: #fff; border: 1px solid #c5c7d2;
+    -moz-border-radius : 3px;
+    -webkit-border-radius : 3px;
+    border-radius: 3px
+}
+.suggest-overlay .bd {
+   min-width: 220px;
+   line-height: 1; background: #fafafa; color: #b3b3b3; padding: 5px;
+    -moz-border-radius : 3px;
+    -webkit-border-radius : 3px;
+    border-radius: 3px
+}
+.suggest-overlay ul { color: #999; padding: 3px 0; min-width: 214px }
+.suggest-overlay li { margin: 0; padding: 0; }
+.suggest-overlay li b { font-weight: bold }
+.suggest-overlay li .username { color: #333; margin-right: 3px; }
+.suggest-overlay img { margin-right: 5px; width: 20px; height: 20px; vertical-align: middle }
+.suggest-overlay li.on {
+  background: #e9f0f8
+}
+.suggest-overlay li a {
+  display: block;
+  padding: 3px 7px;
+  color: #999;
+}
+.suggest-overlay li a:hover,
+.suggest-overlay li a:focus,
+.suggest-overlay li a:active {
+  outline: none;
+  color: #999;
+  background: none;
+  background: #e9f0f8
+}
+
+    #tag-search-form {
+        width: 195px;
+        position: relative;
+        padding-right: 4px;
+        padding-bottom: 3px;
+        margin-bottom:0;
+    }
+    .inp-text {
+        background: #fff;
+        width: 183px;
+        margin: 0;
+        text-align: left;
+        height: 30px;
+        padding-left: 10px;
+        height: 28px\9;
+        line-height: 28px\9;
+        outline: 0;
+        -webkit-appearance: none;
+        border: 1px solid #E8E8E8;
+        box-shadow: 1px 1px 2px 0px rgba(102,102,102,0.10);
+    }
+    .inp-btn {
+        position: absolute;
+        right: 4px;
+        top: 1px;
+        width: 30px;
+        height: 30px;
+        font-size: 0;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        border: none;
+        background: transparent url(/f/shire/f71f15922ebd7c0ff0ea0e7a25577529efd8981a/pics/icon/bn_srh_1.png) no-repeat 50% 50%;
+        -webkit-appearance: none;
+        cursor: pointer;
+    }
+    .suggest-overlay .tag-search-suggest {
+        width: 193px;
+        min-width: 0;
+    }
+  
